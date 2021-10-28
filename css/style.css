@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+  }
+  
+
+  body {
+    background-color: #dee0e0;
+  }
+  
+  .container{
+    width: 860px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .container > .article {
+    display: inline-block;
+    margin: 15px 5px;
+  }
+  
+  .outfit {
+    width: calc(1000px / 3 - 130px);
+    height: 290px;
+    background-size: 100%;
+    position: relative;
+  }
+  
+  .price, .eco {
+    position: absolute;
+    font-size: 8px;
+    color: #fff;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  .hearth {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .info {
+    text-align: left;
+    margin-top: 5px;
+  }
+  
+  .info > span:nth-child(1) {
+    font-size: 10px;
+  }
+  
+  .red {
+    font-size: 10px;
+    color: #ec073a;
+    font-weight: bold;
+  }
+  
+  .deleted {
+    font-size: 10px;
+    color: black;
+    text-decoration: line-through;
+  }
+
+  .hearth:hover {
+    color: #ec073a;
+  }
+  
+  .price {
+    bottom: 5px;
+    left: 0px;
+    background-color: #ec073a;
+  }
+  
+  .eco {
+    bottom: 5px;
+    left: 27px;
+    background-color: #1a926a;
+  }
+  
+  .skirt > .eco {
+    bottom: 5px;
+    left: 0px;
+    background-color: #1a926a;
+  }
+
+  .levis {
+    background-image: url("../img/img/1.webp");
+  }
+  
+  .guess {
+    background-image: url("../img/img/2.webp");
+  }
+  
+  .green-girl {
+    background-image: url("../img/img/3.webp");
+  }
+  
+  .levis-second {
+    background-image: url("../img/img/4.webp");
+  }
+  
+  .elegant {
+    background-image: url("../img/img/5.webp");
+  }
+  
+  .skirt {
+    background-image: url("../img/img/6.webp");
+  }
+  
+  .levis:hover {
+    background-image: url("../img/img/1b.webp");
+  }
+  
+  .guess:hover {
+    background-image: url("../img/img/2b.webp");
+  }
+  
+  .green-girl:hover {
+    background-image: url("../img/img/3b.webp");
+  }
+  
+  .levis-second:hover {
+    background-image: url("../img/img/4b.webp");
+  }
+  
+  .elegant:hover {
+    background-image: url("../img/img/5b.webp");
+  }
+  
+  .skirt:hover {
+    background-image: url("../img/img/6b.webp");
+  }
